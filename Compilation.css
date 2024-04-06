@@ -1,0 +1,33 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for navigation bar */
+.navbar {
+  background-color: #333; /* Background color */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align items */
+}
+
+/* Style for navigation links */
+.navbar a {
+  color: white; /* Text color */
+  text-decoration: none; /* Removes default underline */
+  padding: 14px 20px; /* Padding around the link text */
+  margin: 0 10px; /* Spacing between links */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Change color of links on hover */
+.navbar a:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #ddd; /* Background color for active/current link */
+  color: black; /* Text color for active/current link */
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+ 
+            background-image: url(Heathens.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover ; 
+            background-position: center;
+}
+    .lyrics-container {
+            background-color: rgba(240,240,240,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+            margin: 20px auto;
+            max-width: 350px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+  
+  
+  .video-container {
+    margin: 50px auto;
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
